@@ -6,6 +6,16 @@ int m[6];
 int batch,total;
 char name[50],programe[10],adno[12];
 } student[60],temp;
+ //sorting
+    for (i=0;i<n;i++)
+    {
+	    if (student[i].total < student[i + 1].total)
+	    {
+		temp = student[i];
+		student[i] = student[i + 1];
+		student[i + 1] = temp;
+	    }
+    }
 void main()
 {
 	int i,j,n;
