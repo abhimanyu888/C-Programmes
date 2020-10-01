@@ -50,5 +50,6 @@ for(i=0;i<n;i++)
 printf("%d\tName:%s Programe:%s Batch:%d Total:%d\n",i+1,student[i].name,student[i].programe,student[i].batch,student[i].total);
 }
 printf("\n\nPress Enter to Exit.......");
+printf("\n\nPress Enter to Exit.......");
 getch();
 }
